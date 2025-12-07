@@ -1,8 +1,8 @@
 {
-    "buildCommand": "cd frontend && pnpm install && pnpm build",
+    "buildCommand": "pnpm build",
     "outputDirectory": "frontend/.next",
-    "devCommand": "cd frontend && pnpm dev",
-    "installCommand": "cd frontend && pnpm install && cd .. && pip install -r requirements.txt",
+    "devCommand": "pnpm dev",
+    "installCommand": "pnpm install && pip install -r requirements.txt",
     "framework": "nextjs",
     "rewrites": [
         {

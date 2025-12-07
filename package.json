@@ -2,8 +2,8 @@
     "name": "cv-agent-2-root",
     "private": true,
     "scripts": {
-        "dev": "pnpm dev",
-        "build": "pnpm build",
+        "dev": "pnpm --filter frontend dev",
+        "build": "pnpm --filter frontend build",
         "install": "pnpm install"
     },
     "workspaces": [
