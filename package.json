@@ -1,0 +1,16 @@
+{
+    "name": "cv-agent-2-root",
+    "private": true,
+    "scripts": {
+        "dev": "pnpm dev",
+        "build": "pnpm build",
+        "install": "pnpm install"
+    },
+    "workspaces": [
+        "frontend"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "packageManager": "pnpm@9.1.0"
+}
